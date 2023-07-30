@@ -172,15 +172,16 @@ body {
 .filter-btn {
   background-color: var(--cloud);
   color: var(--iris);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.filter-btn:active,
+.filter-btn:focus,
 .filter-btn:hover {
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 /* Portfolio list */
 .portfolio-list {
