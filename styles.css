@@ -1,0 +1,11 @@
+:root {
+  --primary-font: 'Roboto' sans-serif;
+  --primary-background: #fff;
+}
+/* header */
+header {
+  background-color: var(--priary-background);
+}
+
+body {
+}
