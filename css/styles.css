@@ -11,7 +11,6 @@
 body {
   background-color: var(--white);
   font-family: var(--primary-font);
-  color: var(--navyblue);
 }
 /* header */
 
@@ -21,7 +20,6 @@ body {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway';
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.03em;
@@ -83,7 +81,6 @@ body {
 .hero-title {
   color: var(--white);
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -94,10 +91,10 @@ body {
   box-shadow: 0px 4px 4px 0px;
   color: var(--white);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04rem;
+  cursor: pointer;
 }
 
 .hero-btn:focus,
@@ -113,7 +110,6 @@ body {
 .about-list-title {
   color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -123,8 +119,6 @@ body {
   color: var(--slate);
 
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -134,7 +128,6 @@ body {
 .doing-title {
   color: var(--navyblue);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -158,7 +151,6 @@ body {
 .team-section-title {
   color: var(--navyblue);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -168,7 +160,6 @@ body {
 .card-title {
   color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -177,7 +168,6 @@ body {
 .card-text {
   color: var(--slate);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -193,10 +183,10 @@ body {
   background-color: var(--cloud);
   color: var(--iris);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .filter-btn:active,
 .filter-btn:hover {
@@ -212,7 +202,6 @@ body {
 .portfolio-link-title {
   color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -220,8 +209,6 @@ body {
 .filter-text {
   color: var(--slate);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -235,8 +222,6 @@ footer {
 .text-footer {
   color: var(--cloud);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
