@@ -1,3 +1,4 @@
+/* body */
 :root {
   --primary-font: 'Roboto', sans-serif;
   --white: #fff;
@@ -7,7 +8,6 @@
   --cloud: #f4f4fd;
   --ocean: #404bbf;
 }
-/* body */
 body {
   background-color: var(--white);
   font-family: var(--primary-font);
@@ -37,6 +37,7 @@ body {
 .link {
   text-decoration: none;
 }
+/* Navigation */
 .nav {
   color: var(--navyblue);
   font-size: 16px;
@@ -45,9 +46,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-list-link:focus,
-.nav-list-link:hover {
-  color: #404bbf;
+.nav:focus,
+.nav:hover {
+  color: var(--ocean);
 }
 
 /* Adress */
@@ -62,9 +63,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.adress-list-link:active,
-.adress-list-link:hover {
-  color: #404bbf;
+.adress-list:focus,
+.adress-list:hover {
+  color: var(--ocean);
 }
 
 /* main */
@@ -182,6 +183,7 @@ body {
 .filter-btn:focus,
 .filter-btn:hover {
   background-color: var(--ocean);
+  color: var(--white);
 }
 /* Portfolio list */
 .portfolio-list {
